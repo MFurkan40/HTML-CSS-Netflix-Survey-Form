@@ -26,10 +26,6 @@ Project aims to create survey form within html and css.
         |----result.html 
 ```
 
-## Expected Outcome
-
-![Project 001 Snapshot](Project_001_.png)
-
 ## Objective
 
 Functionally create a Survey Form as in the image above
