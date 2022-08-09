@@ -8,22 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap"
       rel="stylesheet"
     />
     />
-    <title>Netflix</title>
+    <title>Netflix Survey Form</title>
   </head>
   <body>
     <div class="container">
       <header class="header">
-        <h1 class="title">Net<span>Flix</span></h1>
-        <p class="description">
+        <h1 class="title">NET<span>FLIX</span></h1>
+        <h3 class="description">
           Thank you for signing up at Netflix. Tell us more about yourself
-        </p>
+        </h3>
       </header>
       <div class="form-container">
-        <form action="" method="get" class="survey-form">
+        <form
+          action="./result.html"
+          method="get"
+          target="_blank"
+          class="survey-form"
+        >
           <div class="box">
             <label class="label-set1" for="name">Name</label>
             <br /><br />
@@ -32,13 +41,20 @@
               name="Name"
               placeholder="Enter your name"
               id="name"
+              required
             />
           </div>
 
           <div class="box">
             <label class="label-set1" for="age">Age</label>
             <br /><br />
-            <input type="number" name="Age" placeholder="Age" id="age" />
+            <input
+              type="number"
+              name="Age"
+              placeholder="Age"
+              id="age"
+              required
+            />
           </div>
 
           <div class="box">
@@ -49,6 +65,7 @@
               name="Email"
               placeholder="Enter your mail"
               id="mail"
+              required
             />
           </div>
 
@@ -58,13 +75,13 @@
 
             <select name="content" id="dropbox">
               <option class="default" value="Series">Series</option>
-              <option class="default" value="Movies">Series</option>
+              <option class="default" value="Movies">Movies</option>
               <option class="default" value="Others">Others</option>
             </select>
           </div>
 
           <div class="box">
-            <label class="label-set2" for="Movie-type">Movie Type</label>
+            <label for="Movie-type">Movie Type</label>
             <br />
             <input
               type="checkbox"
@@ -72,7 +89,7 @@
               id="first-check"
               value="Comedy"
             />
-            <label class="label-set2" for="first-check">Comedy</label>
+            <label for="first-check">Comedy</label>
             <br />
             <input
               type="checkbox"
@@ -80,7 +97,7 @@
               id="second-check"
               value="Action"
             />
-            <label class="label-set2" for="second-check">Action</label>
+            <label for="second-check">Action</label>
             <br />
             <input
               type="checkbox"
@@ -92,10 +109,10 @@
           </div>
 
           <div class="box">
-            <label class="label-set2" for="Gender">Gender</label>
+            <label for="Gender">Gender</label>
             <br />
             <input type="radio" name="Gender" id="first-radio" value="Male" />
-            <label class="label-set2" for="first-radio">Male</label>
+            <label for="first-radio">Male</label>
             <br />
             <input
               type="radio"
@@ -103,14 +120,14 @@
               id="second-radio"
               value="Female"
             />
-            <label class="label-set2" for="second-radio">Female</label>
+            <label for="second-radio">Female</label>
             <br />
             <input type="radio" name="Gender" id="third-radio" value="Other" />
             <label for="third-radio">Other</label>
           </div>
 
           <div class="box">
-            <label for="feedback">Feed back</label>
+            <label for="feedback">Feedback</label>
             <br />
             <textarea
               name="feedback"
@@ -122,7 +139,7 @@
           </div>
 
           <div class="submit">
-            <input type="submit" name="submit" id="btn" value="Submit" />
+            <input type="submit" name="submit" id="btn" value="SEND" />
           </div>
         </form>
       </div>
