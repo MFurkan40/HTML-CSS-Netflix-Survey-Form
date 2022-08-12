@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks to visit my Github! In this project, i used basic CSS properies. This project is created to practice about input types and validation screen design.
+Thanks to visit my Github! In this project, i used basic CSS properties. This project is created to practice about input types and validation screen design.
 
 **To do this project, i used basic HTML and CSS.**
 
@@ -12,7 +12,7 @@ Thanks to visit my Github! In this project, i used basic CSS properies. This pro
 
 Users should be able to:
 
-- View the validation page that was designed with CSS property.
+- View the validation page that was designed with CSS properties.
 
 ## Got feedback for me?
 
